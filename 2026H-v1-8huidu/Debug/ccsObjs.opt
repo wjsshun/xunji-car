@@ -1,0 +1,15 @@
+"./board.o"
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./BSP/bsp_motor.o"
+"./BSP/bsp_motor_hallencoder.o"
+"./BSP/bsp_mpu6050.o"
+"./BSP/bsp_oled.o"
+"./BSP/bsp_track.o"
+"./BSP/key_handler.o"
+"./BSP/oled_menu.o"
+"../stack_override.cmd"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
