@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123d52" />
+    <meta name="description" content="山海之间·文化基因数字展" />
+    <title>山海之间·文化基因数字展</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23123d52'/%3E%3Cpath d='M9 45c9-17 17-7 23-27 7 17 14 10 23 27' fill='none' stroke='%23f7d992' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='46' cy='18' r='5' fill='%23f7d992'/%3E%3C/svg%3E" />
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100svh; color: #f9f5ea; font-family: "Noto Serif SC", "Microsoft YaHei", serif; background: #123d52; }
+      main { min-height: 100svh; display: grid; place-items: center; padding: 24px; overflow: hidden; position: relative; }
+      main::before, main::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+      main::before { width: 460px; height: 460px; top: -220px; right: -145px; background: #2f6b75; opacity: .75; }
+      main::after { width: 360px; height: 360px; bottom: -205px; left: -120px; background: #9e683d; opacity: .55; }
+      .card { width: min(100%, 540px); position: relative; z-index: 1; text-align: center; padding: 42px 28px 34px; border: 1px solid rgba(247,217,146,.52); border-radius: 26px; background: rgba(10,44,59,.7); box-shadow: 0 24px 70px rgba(0,0,0,.26); backdrop-filter: blur(10px); }
+      .eyebrow { margin: 0 0 26px; color: #f7d992; font: 600 .86rem/1.3 "Microsoft YaHei", sans-serif; letter-spacing: .25em; }
+      .motif { width: 92px; height: 62px; margin: 0 auto 24px; }
+      h1 { margin: 0; font-size: clamp(2rem, 9vw, 3.35rem); line-height: 1.2; letter-spacing: .08em; font-weight: 700; }
+      .rule { width: 46px; height: 2px; margin: 27px auto 21px; background: #f7d992; }
+      .intro { margin: 0 auto; max-width: 25em; font-size: 1rem; line-height: 1.95; color: rgba(249,245,234,.9); }
+      .badge { display: inline-block; margin-top: 30px; padding: 10px 17px; color: #143e52; background: #f7d992; border-radius: 999px; font: 600 .9rem/1 "Microsoft YaHei", sans-serif; letter-spacing: .08em; }
+      footer { position: relative; z-index: 1; margin-top: 25px; color: rgba(249,245,234,.64); font: .76rem/1.6 "Microsoft YaHei", sans-serif; letter-spacing: .04em; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card" aria-labelledby="title">
+        <p class="eyebrow">DIGITAL CULTURAL EXHIBITION</p>
+        <svg class="motif" viewBox="0 0 92 62" fill="none" aria-hidden="true"><circle cx="69" cy="14" r="8" fill="#f7d992"/><path d="M3 52c13-25 24-10 36-39 12 30 24 14 50 39" stroke="#f7d992" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 55h76" stroke="#f7d992" stroke-width="2" opacity=".7"/></svg>
+        <h1 id="title">山海之间<br>文化基因数字展</h1>
+        <div class="rule"></div>
+        <p class="intro">循着山海脉络，走近文化记忆。欢迎进入本地展示版，开启一段关于文化基因的数字化探索。</p>
+        <span class="badge">本地展示版</span>
+        <footer>扫码直达 · 手机端友好浏览</footer>
+      </section>
+    </main>
+  </body>
+</html>
+
